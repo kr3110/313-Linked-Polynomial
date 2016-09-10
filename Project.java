@@ -24,7 +24,9 @@ public class Project {
 	p1=new Polynomial();
 	p2=new Polynomial();
 	try	{
-		file=new FileReader("src/data");
+		if(args.length==0) throw new Exception("\nArgument is empty"
+							+"\nProgram will end");
+		file=new FileReader(args[0]);
 		infile=new BufferedReader(file);
 		int i=1;
 		while((line=infile.readLine())!=null)	{
