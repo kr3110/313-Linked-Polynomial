@@ -1,4 +1,5 @@
-# 313-Linked-Polynomial
+#313-Linked-Polynomial
 Data Structures project
-This project was made for a Data structures class. 
-P
+
+Java project to create, add and multiply polynomials from a file specified in args.
+
